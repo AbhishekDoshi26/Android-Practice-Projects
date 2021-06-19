@@ -23,13 +23,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="388dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/happy_birthday"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="36sp"
         android:textStyle="bold|italic"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="399dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
